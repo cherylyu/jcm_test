@@ -1,0 +1,209 @@
+2014-08-09 14:49:01 Error: [MissingControllerException] Controller class AController could not be found.
+Exception Attributes: array (
+  'class' => 'AController',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/a
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:51:36 Error: [MissingControllerException] Controller class 1Controller could not be found.
+Exception Attributes: array (
+  'class' => '1Controller',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:51:38 Error: [MissingControllerException] Controller class 1Controller could not be found.
+Exception Attributes: array (
+  'class' => '1Controller',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:55:37 Error: [MissingControllerException] Controller class 1Controller could not be found.
+Exception Attributes: array (
+  'class' => '1Controller',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:55:52 Error: [MissingActionException] Action ContactsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => '1',
+)
+Request URL: /jcm_test/contacts/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-09 14:55:56 Error: [MissingActionException] Action ContactsController::w() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => 'w',
+)
+Request URL: /jcm_test/contacts/w
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ContactsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-09 14:57:03 Error: [MissingControllerException] Controller class AController could not be found.
+Exception Attributes: array (
+  'class' => 'AController',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/a
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:57:22 Error: [MissingControllerException] Controller class AController could not be found.
+Exception Attributes: array (
+  'class' => 'AController',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/a
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:57:31 Error: [MissingControllerException] Controller class AController could not be found.
+Exception Attributes: array (
+  'class' => 'AController',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/a
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 14:57:39 Error: [MissingControllerException] Controller class AController could not be found.
+Exception Attributes: array (
+  'class' => 'AController',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/a
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 15:05:03 Error: [MissingControllerException] Controller class 1Controller could not be found.
+Exception Attributes: array (
+  'class' => '1Controller',
+  'plugin' => NULL,
+)
+Request URL: /jcm_test/1
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-09 15:20:39 Error: Fatal Error (1): Call to undefined method AgentsController::find() in [/Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php, line 27]
+2014-08-09 15:20:39 Error: [FatalErrorException] Call to undefined method AgentsController::find()
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-09 15:20:57 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php, line 27]
+2014-08-09 15:20:57 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-09 15:20:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php, line 27]
+2014-08-09 15:20:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Error/ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-09 15:21:10 Error: [MissingTableException] Table aagents for model Aagent was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aagents',
+  'class' => 'Aagent',
+  'ds' => 'default',
+)
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(3504): Model->setSource('aagents')
+#1 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2905): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php(29): PaginatorComponent->paginate()
+#5 [internal function]: AgentsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-09 15:21:48 Error: [MissingTableException] Table aagents for model Aagent was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aagents',
+  'class' => 'Aagent',
+  'ds' => 'default',
+)
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(3504): Model->setSource('aagents')
+#1 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2905): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php(29): PaginatorComponent->paginate()
+#5 [internal function]: AgentsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-09 15:21:58 Error: [MissingTableException] Table aagents for model Aagent was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aagents',
+  'class' => 'Aagent',
+  'ds' => 'default',
+)
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(3504): Model->setSource('aagents')
+#1 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2905): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php(29): PaginatorComponent->paginate()
+#5 [internal function]: AgentsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-09 15:22:40 Error: [MissingTableException] Table aagents for model Aagent was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aagents',
+  'class' => 'Aagent',
+  'ds' => 'default',
+)
+Request URL: /jcm_test/agents
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(3504): Model->setSource('aagents')
+#1 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2905): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/Controller/AgentsController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: AgentsController->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AgentsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AgentsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/jcm_test/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
